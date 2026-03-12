@@ -31,7 +31,7 @@ const Login: React.FC<LoginProps> = ({ onSuccess }) => {
     };
 
     return (
-        <div style={{ maxWidth: 300, margin: '50px auto'}}>
+        <div style={{ maxWidth: 300 }}>
             <h2>Login</h2>
             <form onSubmit={handleSubmit}>
                 <div>
