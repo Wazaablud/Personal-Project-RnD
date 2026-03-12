@@ -1,5 +1,9 @@
 {
   "dependencies": {
     "react-router-dom": "^7.13.1"
+  },
+  "overrides": {
+    "react": "$react",
+    "react-dom": "$react-dom"
   }
 }
